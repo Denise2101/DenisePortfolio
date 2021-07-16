@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      font-family: 'Courier New', Courier, monospace, sans-serif;
+        background-image: url('../heroi-mage.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #adadad;
+      
+  }
+
+
+  @media screen and (min-width: 300px) {
+  
+nav, a , footer{
+    background-color:#1e1e1e;
+    color: #adadad;
+    padding: 5px;
+    
+    text-decoration: none;
+font-size: 15px;
+z-index: 2;
+    
+}
+
+
+
+
+.banner { 
+   position: relative;
+   background-position: center;
+   margin-top: 10px;
+   background-size: cover;
+   display: block;
+   height: 15em;
+   text-align: center;
+  
+
+}
+.text {
+    position: absolute;
+    color: #adadad;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+    button {
+        font-family: 'Courier New', Courier, monospace, sans-serif;
+    }
+
+
+    .projects { 
+     
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px;
+        padding: 5px;
+       
+  
+
+    }
+
+    .project-one, .project-two, .project-three {
+        padding: 40px;
+
+    }
+
+  
+
+ 
+     
+
+
+    footer {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        text-align: center;
+    }
+    }
+   
+
+    @media screen and (min-width: 800px) {
+
+    nav, a , footer{
+        background-color:#1e1e1e;
+        color: #adadad;
+        padding: 5px;
+        
+        text-decoration: none;
+        font-size: 15px;
+        z-index: 2;
+        
+    }
+    
+    
+    
+    
+    .banner { 
+       position: relative;
+       background-position: center;
+       margin-top: 10px;
+       background-size: cover;
+       display: block;
+       height: 15em;
+       text-align: center;
+      
+    
+    }
+    .text {
+        position: absolute;
+        color: #adadad;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+        button {
+            font-family: 'Courier New', Courier, monospace, sans-serif;
+        }
+    
+    
+        .projects { 
+        
+            display: flex;
+            flex-direction: row;
+           align-items: center;
+            margin: 50px;
+            padding: 3px;
+        }
+
+        .project-one, .project-two, .project-three {
+            padding: 90px;
+
+        }
+
+
+      
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            text-align: center;
+        }
+    }
